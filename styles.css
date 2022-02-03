@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+background-color: whitesmoke;
+color: 0f141e;
+font-size: 16px;
+font-weight: normal;
+font-family: fantasy;
+font-family: 'Roboto', sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: grey;
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 28px;
+}
+.info {
+    
+    margin: 0px;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+.bg-yellow {
+background: #fff9dc;
+}
+.bg-green {
+background: #e5ffe7;
+}
+.bg-red {
+background: #ffe5e5;
+}
+.start {
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+.start p {
+    margin: 0;
+    color: grey;
+}
+
+.start-text {
+    margin-left: 40px;
+}
+.start-text h4 {
+    margin-bottom: 5px;
+}
+
+.info h2{
+    margin: 0px;
+}
+.list li {
+    color: grey;
+    list-style: none;
+    
+    
+}
+.list {
+    padding: 0px;
+}
+.table {
+width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),td:nth-child(3){
+color: grey;
+}
+.link-list {
+list-style: none;
+padding: 0px;
+}
+.info li {
+    margin-bottom: 10px;
+    
+}
+
+.contact {
+    text-align: center;
+}
+.form-group label {
+display: block;
+color: grey;
+padding-top: 10px;
+}
+.form-group input, .form-group textarea{
+width: 50%;
+box-sizing: border-box;
+border: 1px solid black;
+background: transparent;
+outline: none;
+padding-top: 5px;
+font-family: inherit;
+border-radius: 7px;
+}
+
+
+.btn {
+background-color: black;
+padding: 15px 20px;
+color: white;
+border: none;
+font-family: inherit;
+cursor: pointer;
+}
